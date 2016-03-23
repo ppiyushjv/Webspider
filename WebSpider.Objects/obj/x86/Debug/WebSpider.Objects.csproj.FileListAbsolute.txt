@@ -1,0 +1,9 @@
+D:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Objects\bin\x86\Debug\WebSpider.Objects.dll
+D:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Objects\bin\x86\Debug\WebSpider.Objects.pdb
+D:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Objects\obj\x86\Debug\WebSpider.Objects.dll
+D:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Objects\obj\x86\Debug\WebSpider.Objects.pdb
+D:\C#\Webspider\WebSpider.Objects\bin\x86\Debug\WebSpider.Objects.dll
+D:\C#\Webspider\WebSpider.Objects\bin\x86\Debug\WebSpider.Objects.pdb
+D:\C#\Webspider\WebSpider.Objects\obj\x86\Debug\WebSpider.Objects.csprojResolveAssemblyReference.cache
+D:\C#\Webspider\WebSpider.Objects\obj\x86\Debug\WebSpider.Objects.dll
+D:\C#\Webspider\WebSpider.Objects\obj\x86\Debug\WebSpider.Objects.pdb

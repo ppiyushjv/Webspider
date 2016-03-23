@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{807FC3CE-73F3-4ADF-829B-0F46DF1111FB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebSpider.AdiGlobal</RootNamespace>
+    <AssemblyName>WebSpider.AdiGlobal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Data\AdiExport\AdiChildManager.cs" />
+    <Compile Include="Data\AdiExport\AdiInventoryDetailsManager.cs" />
+    <Compile Include="Data\AdiExport\AdiInventoryManager.cs" />
+    <Compile Include="Data\AdiExport\BrandExportManager.cs" />
+    <Compile Include="Data\AdiExport\CategoryExportManager.cs" />
+    <Compile Include="Data\AdiExport\FinalTableManager.cs" />
+    <Compile Include="Data\AdiExport\UpdateFinalTableManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADIBrandManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADICategoryExportManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADICategoryManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADIInventoryDetailsManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADIInventoryExportManager.cs" />
+    <Compile Include="Data\AdiGlobal\ADIProductManager.cs" />
+    <Compile Include="Data\AdiGlobal\ProductSpecificationManager.cs" />
+    <Compile Include="Objects\AdiExport\Adi_Brand.cs" />
+    <Compile Include="Objects\AdiExport\Adi_Category.cs" />
+    <Compile Include="Objects\AdiExport\ADI_Child.cs" />
+    <Compile Include="Objects\AdiExport\ADI_Inventory.cs" />
+    <Compile Include="Objects\AdiExport\ADI_InventoryDetails.cs" />
+    <Compile Include="Objects\AdiExport\FinalTable.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiBrand.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiCategory.cs" />
+    <Compile Include="Objects\AdiGlobal\ADICategoryExport.cs" />
+    <Compile Include="Objects\AdiGlobal\ADIChild.cs" />
+    <Compile Include="Objects\AdiGlobal\ADIInventoryDetails.cs" />
+    <Compile Include="Objects\AdiGlobal\ADIInventoryExport.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiMode.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiProduct.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiRequest.cs" />
+    <Compile Include="Objects\AdiGlobal\AdiResponse.cs" />
+    <Compile Include="Objects\AdiGlobal\Final_Table.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\WebSpider.Data\WebSpider.Data.csproj">
+      <Project>{eabc577f-6d78-4e8f-b0a4-115857e70e44}</Project>
+      <Name>WebSpider.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WebSpider.Objects\WebSpider.Objects.csproj">
+      <Project>{5a61fa7e-8aad-4bb0-b0cf-b28bbdbde757}</Project>
+      <Name>WebSpider.Objects</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

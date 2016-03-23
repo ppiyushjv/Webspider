@@ -1,0 +1,768 @@
+12/25/2015 12:35 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:35 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:35 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:35 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:35 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:35 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:40 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:40 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:40 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:40 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:40 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:40 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 12:46 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 12:46 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+12/25/2015 13:19 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 13:19 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 13:21 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 13:21 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 85
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 13:25 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 13:25 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 86
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 13:25 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+12/25/2015 13:25 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 86
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 13:29 : Syntax error in INSERT INTO statement.
+12/25/2015 13:29 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 13:29 : Syntax error in INSERT INTO statement.
+12/25/2015 13:29 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 855
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 752
+12/25/2015 14:19 : Unable to Load Brands
+12/25/2015 14:19 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 14:19 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+12/25/2015 14:19 : Unable to Load Catagories
+12/25/2015 14:19 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 14:19 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+12/25/2015 15:11 : Unable to Load Brands
+12/25/2015 15:11 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:11 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+12/25/2015 15:12 : Unable to Load Brands
+12/25/2015 15:12 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:12 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+12/25/2015 15:12 : Unable to Load Catagories
+12/25/2015 15:12 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:12 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+12/25/2015 15:12 : Unable to Load Brands
+12/25/2015 15:12 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:12 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+12/25/2015 15:12 : Unable to Load Catagories
+12/25/2015 15:12 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:12 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+12/25/2015 15:13 : Unable to Load Catagories
+12/25/2015 15:13 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:13 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+12/25/2015 15:13 : Unable to Load Brands
+12/25/2015 15:13 : The remote server returned an error: (500) Internal Server Error.
+12/25/2015 15:13 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/22/2016 23:28 : Unable to Load Catagories
+01/22/2016 23:28 : The remote server returned an error: (500) Internal Server Error.
+01/22/2016 23:28 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/22/2016 23:28 : Unable to Load Catagories
+01/22/2016 23:28 : The remote server returned an error: (500) Internal Server Error.
+01/22/2016 23:28 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/22/2016 23:28 : Unable to Load Brands
+01/22/2016 23:28 : The remote server returned an error: (500) Internal Server Error.
+01/22/2016 23:28 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/22/2016 23:28 : Unable to Load Brands
+01/22/2016 23:28 : The remote server returned an error: (500) Internal Server Error.
+01/22/2016 23:28 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/22/2016 23:28 : Unable to Load Catagories
+01/22/2016 23:28 : The remote server returned an error: (500) Internal Server Error.
+01/22/2016 23:28 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/23/2016 02:40 : Unable to Load Brands
+01/23/2016 02:40 : The remote server returned an error: (500) Internal Server Error.
+01/23/2016 02:40 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/23/2016 02:44 : Unable to Load Brands
+01/23/2016 02:44 : The remote server returned an error: (500) Internal Server Error.
+01/23/2016 02:44 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/23/2016 02:44 : Unable to Load Catagories
+01/23/2016 02:44 : The remote server returned an error: (500) Internal Server Error.
+01/23/2016 02:44 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/23/2016 02:46 : Unable to Load Catagories
+01/23/2016 02:46 : The remote server returned an error: (500) Internal Server Error.
+01/23/2016 02:46 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/23/2016 02:47 : Unable to Load Brands
+01/23/2016 02:47 : The remote server returned an error: (500) Internal Server Error.
+01/23/2016 02:47 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 145
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/27/2016 13:24 : Unable to Load Catagories
+01/27/2016 13:24 : The remote server returned an error: (407) Proxy Authentication Required.
+01/27/2016 13:24 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 147
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/27/2016 13:24 : Unable to Load Brands
+01/27/2016 13:24 : The remote server returned an error: (407) Proxy Authentication Required.
+01/27/2016 13:24 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 147
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/27/2016 13:24 : Unable to Load Catagories
+01/27/2016 13:24 : The remote server returned an error: (407) Proxy Authentication Required.
+01/27/2016 13:24 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 147
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllCategories(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 161
+   at WebSpider.Core.AdiSpider.LoadCatagoryFromSite() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 308
+   at WebSpider.Core.AdiSpider.LoadCatagory(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 274
+01/27/2016 13:24 : Unable to Load Brands
+01/27/2016 13:24 : The remote server returned an error: (407) Proxy Authentication Required.
+01/27/2016 13:24 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 147
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\AdiSpider.cs:line 710
+01/29/2016 23:12 : Thread was being aborted.
+01/29/2016 23:12 :    at WebSpider.Core.Browser.GetWebRequest(String Url) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 67
+   at WebSpider.Core.SecLockSpider.GetCategoryProductsFromSite(InCategory category) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 279
+   at WebSpider.Core.SecLockSpider.GetCategoryProducts(InCategory category) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 274
+   at WebSpider.Core.SecLockSpider.Crawl(Object objItem) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 555
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:37 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:37 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:38 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:38 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:39 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:39 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:39 : The INSERT INTO statement contains the following unknown field name: 'SLD_DESC'.  Make sure you have typed the name correctly, and try the operation again.
+01/29/2016 23:39 :    at System.Data.OleDb.OleDbCommand.ExecuteCommandTextErrorHandling(OleDbHResult hr)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandTextForSingleResult(tagDBPARAMS dbParams, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommandText(Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteCommand(CommandBehavior behavior, Object& executeResult)
+   at System.Data.OleDb.OleDbCommand.ExecuteReaderInternal(CommandBehavior behavior, String method)
+   at System.Data.OleDb.OleDbCommand.ExecuteNonQuery()
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 218
+   at WebSpider.SecLock.Data.External.FinalTableManager.Insert(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 91
+   at WebSpider.SecLock.Data.External.FinalTableManager.SaveProduct(FinalTable finalTable) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\External\FinalTableManager.cs:line 52
+   at WebSpider.Core.SecLockSpider.ExportProduct(String productCode) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 853
+   at WebSpider.Core.SecLockSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 750
+01/29/2016 23:39 : Thread was being aborted.
+01/29/2016 23:39 :    at WebSpider.Core.Browser.DownloadFile(String Url, String FileName) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\Browser.cs:line 188
+   at WebSpider.Core.SecLockSpider.GetProductFromSite(String ProductCode, Boolean Incongito) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 410
+01/29/2016 23:39 : Thread was being aborted.
+01/29/2016 23:39 :    at WebSpider.Core.SecLockSpider.Crawl(Object objItem) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 580
+01/30/2016 16:46 : Thread was being aborted.
+01/30/2016 16:46 :    at WebSpider.Data.DatabaseManager.SqlCeDataManager.GetTable() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\SqlCeDataManager.cs:line 117
+   at WebSpider.SecLock.Data.Internal.InProductManager.GetData(InProduct product) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.SecLock\Data\Internal\InProductManager.cs:line 32
+   at WebSpider.Core.SecLockSpider.GetCategoryProductsFromSite(InCategory category) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 287
+   at WebSpider.Core.SecLockSpider.GetCategoryProducts(InCategory category) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 274
+   at WebSpider.Core.SecLockSpider.Crawl(Object objItem) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Core\SecLockSpider.cs:line 564
+02/04/2016 17:49 : Unable to Load Brands
+02/04/2016 17:49 : The underlying connection was closed: Could not establish trust relationship for the SSL/TLS secure channel.
+02/04/2016 17:49 :    at WebSpider.Core.Browser.AjaxPost(String Url, String JsonStringParams) in d:\C#\Webspider\WebSpider.Core\Browser.cs:line 147
+   at WebSpider.Core.AdiSpider.GetAjaxSubmitQuery(AdiRequest adiRequest) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 141
+   at WebSpider.Core.AdiSpider.GetAllBrands(String SearchCategory, String ExcludedRefiners, List`1 adiSearchCriteriaList) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 633
+   at WebSpider.Core.AdiSpider.GetAllBrandsFromWeb() in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 743
+   at WebSpider.Core.AdiSpider.GetAllBrands(Boolean EmailErrors) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 710
+02/10/2016 01:50 : {
+  "ABCCode": null,
+  "AdiNumber": "CK-FG1625K10",
+  "AllowedToBuy": null,
+  "DangerousGoodsMessage": null,
+  "InventoryMessage": null,
+  "MarketingMessage": "",
+  "MinQty": null,
+  "ModelNumber": null,
+  "Price": 335.00,
+  "ProductDescription": "(10)  FG1625",
+  "ProductImagePath": null,
+  "RecycleFee": null,
+  "SaleMessageIndicator": null,
+  "SaleType": null,
+  "VendorName": "Honeywell Intrusion",
+  "VendorNumber": null,
+  "ST": null,
+  "SMI": null,
+  "InventoryMessageCode": null,
+  "CatagoryID": null,
+  "SmallImage": "E_132188.png",
+  "BigImage": "132188_1",
+  "Name": "(10)  FG1625",
+  "VendorModel": "0-001-027-01/10",
+  "PartNumber": "CK-FG1625K10",
+  "Url": "/Pages/Product.aspx?pid=CK-FG1625K10",
+  "LastUpdateDatetime": "2016-02-10T01:47:54.8009814+05:30",
+  "LeastCount": 0,
+  "ProductFeatures": [],
+  "ProductID": null,
+  "Specification": [],
+  "ID": 0,
+  "PriorityProduct": false,
+  "IsUpdating": false,
+  "UpdateInterval": 1000,
+  "ClearanceZone": false,
+  "HotDeals": false,
+  "OnlineSpecials": false,
+  "SaleCenter": false,
+  "InStock": false
+}
+02/10/2016 01:50 : The given path's format is not supported.
+02/10/2016 01:50 :    at WebSpider.Core.Browser.DownloadFile(String Url, String FileName) in d:\C#\Webspider\WebSpider.Core\Browser.cs:line 187
+   at WebSpider.Core.AdiSpider.SaveProductBigImage(AdiProduct p, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1504
+   at WebSpider.Core.AdiSpider.UpdateProductAid(AdiProduct product, Boolean SaveProductImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1444
+   at WebSpider.Core.AdiSpider.GetProductDetails(AdiProduct product, Boolean SaveImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1321
+   at WebSpider.Core.AdiSpider.UpdateProduct(Object objItem) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1953
+02/10/2016 01:51 : An OLE DB Provider was not specified in the ConnectionString.  An example would be, 'Provider=SQLOLEDB;'.
+02/10/2016 01:51 :    at System.Data.OleDb.OleDbConnectionString.ValidateProvider(String progid)
+   at System.Data.OleDb.OleDbConnectionString.ValidateConnectionString(String connectionString)
+   at System.Data.OleDb.OleDbConnectionString..ctor(String connectionString, Boolean validate)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.OleDb.OleDbConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.OleDb.OleDbConnection.set_ConnectionString(String value)
+   at System.Data.OleDb.OleDbConnection..ctor(String connectionString)
+   at WebSpider.Data.DatabaseConnection.OleDbDataConnection.Open(String ConnectionString) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseConnection\OleDbDataConnection.cs:line 75
+   at WebSpider.Data.DatabaseConnection.OleDbDataConnection.Open() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseConnection\OleDbDataConnection.cs:line 64
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.InitQuery(OleDbCommand oCmd) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 302
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 212
+   at WebSpider.AdiGlobal.Data.AdiGlobal.ADIProductSpecificationManager.Delete(String PART_NUM) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.AdiGlobal\Data\AdiGlobal\ProductSpecificationManager.cs:line 81
+   at WebSpider.Core.AdiSpider.ExportProductUpdate(String AID_PART) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 2588
+   at WebSpider.Core.AdiSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 2538
+02/10/2016 12:51 : {
+  "ABCCode": null,
+  "AdiNumber": "CK-FG1625K10",
+  "AllowedToBuy": null,
+  "DangerousGoodsMessage": null,
+  "InventoryMessage": null,
+  "MarketingMessage": "",
+  "MinQty": null,
+  "ModelNumber": null,
+  "Price": 335.00,
+  "ProductDescription": "(10)  FG1625",
+  "ProductImagePath": null,
+  "RecycleFee": null,
+  "SaleMessageIndicator": null,
+  "SaleType": null,
+  "VendorName": "Honeywell Intrusion",
+  "VendorNumber": null,
+  "ST": null,
+  "SMI": null,
+  "InventoryMessageCode": null,
+  "CatagoryID": null,
+  "SmallImage": "E_132188.png",
+  "BigImage": "132188_1",
+  "Name": "(10)  FG1625",
+  "VendorModel": "0-001-027-01/10",
+  "PartNumber": "CK-FG1625K10",
+  "Url": "/Pages/Product.aspx?pid=CK-FG1625K10",
+  "LastUpdateDatetime": "2016-02-10T12:49:51.7743054+05:30",
+  "LeastCount": 0,
+  "ProductFeatures": [],
+  "ProductID": null,
+  "Specification": [],
+  "ID": 0,
+  "PriorityProduct": false,
+  "IsUpdating": false,
+  "UpdateInterval": 0,
+  "ClearanceZone": false,
+  "HotDeals": false,
+  "OnlineSpecials": false,
+  "SaleCenter": false,
+  "InStock": false
+}
+02/10/2016 12:51 : The given path's format is not supported.
+02/10/2016 12:51 :    at WebSpider.Core.Browser.DownloadFile(String Url, String FileName) in d:\C#\Webspider\WebSpider.Core\Browser.cs:line 187
+   at WebSpider.Core.AdiSpider.SaveProductBigImage(AdiProduct p, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1504
+   at WebSpider.Core.AdiSpider.UpdateProductAid(AdiProduct product, Boolean SaveProductImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1444
+   at WebSpider.Core.AdiSpider.GetProductDetails(AdiProduct product, Boolean SaveImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1321
+   at WebSpider.Core.AdiSpider.UpdateProduct(Object objItem) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1953
+02/10/2016 12:53 : An OLE DB Provider was not specified in the ConnectionString.  An example would be, 'Provider=SQLOLEDB;'.
+02/10/2016 12:53 :    at System.Data.OleDb.OleDbConnectionString.ValidateProvider(String progid)
+   at System.Data.OleDb.OleDbConnectionString.ValidateConnectionString(String connectionString)
+   at System.Data.OleDb.OleDbConnectionString..ctor(String connectionString, Boolean validate)
+   at System.Data.OleDb.OleDbConnectionFactory.CreateConnectionOptions(String connectionString, DbConnectionOptions previous)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnectionPoolGroup(DbConnectionPoolKey key, DbConnectionPoolGroupOptions poolOptions, DbConnectionOptions& userConnectionOptions)
+   at System.Data.OleDb.OleDbConnection.ConnectionString_Set(DbConnectionPoolKey key)
+   at System.Data.OleDb.OleDbConnection.set_ConnectionString(String value)
+   at System.Data.OleDb.OleDbConnection..ctor(String connectionString)
+   at WebSpider.Data.DatabaseConnection.OleDbDataConnection.Open(String ConnectionString) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseConnection\OleDbDataConnection.cs:line 75
+   at WebSpider.Data.DatabaseConnection.OleDbDataConnection.Open() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseConnection\OleDbDataConnection.cs:line 64
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.InitQuery(OleDbCommand oCmd) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 302
+   at WebSpider.Data.DatabaseManager.OleDbDataManager.RunActionQuery() in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.Data\DatabaseManager\OleDbDataManager.cs:line 212
+   at WebSpider.AdiGlobal.Data.AdiGlobal.ADIProductSpecificationManager.Delete(String PART_NUM) in d:\C#\WebSpider-master\WebSpider-master_G\WebSpider-master\WebSpider.AdiGlobal\Data\AdiGlobal\ProductSpecificationManager.cs:line 81
+   at WebSpider.Core.AdiSpider.ExportProductUpdate(String AID_PART) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 2612
+   at WebSpider.Core.AdiSpider.Export(ToolStripStatusLabel& lbl) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 2538
+02/10/2016 12:54 : {
+  "ABCCode": null,
+  "AdiNumber": "CK-FG1625K5",
+  "AllowedToBuy": null,
+  "DangerousGoodsMessage": null,
+  "InventoryMessage": null,
+  "MarketingMessage": "",
+  "MinQty": null,
+  "ModelNumber": null,
+  "Price": 167.50,
+  "ProductDescription": "(5) FG1625 KIT",
+  "ProductImagePath": null,
+  "RecycleFee": null,
+  "SaleMessageIndicator": null,
+  "SaleType": null,
+  "VendorName": "Honeywell Intrusion",
+  "VendorNumber": null,
+  "ST": null,
+  "SMI": null,
+  "InventoryMessageCode": null,
+  "CatagoryID": null,
+  "SmallImage": "E_132189.png",
+  "BigImage": "132189_1",
+  "Name": "(5) FG1625 KIT",
+  "VendorModel": "0-001-027-01/5",
+  "PartNumber": "CK-FG1625K5",
+  "Url": "/Pages/Product.aspx?pid=CK-FG1625K5",
+  "LastUpdateDatetime": "2016-02-10T12:54:26.6859408+05:30",
+  "LeastCount": 0,
+  "ProductFeatures": [],
+  "ProductID": null,
+  "Specification": [],
+  "ID": 0,
+  "PriorityProduct": false,
+  "IsUpdating": false,
+  "UpdateInterval": 1000,
+  "ClearanceZone": false,
+  "HotDeals": false,
+  "OnlineSpecials": false,
+  "SaleCenter": false,
+  "InStock": false
+}
+02/10/2016 12:54 : The given path's format is not supported.
+02/10/2016 12:54 :    at WebSpider.Core.Browser.DownloadFile(String Url, String FileName) in d:\C#\Webspider\WebSpider.Core\Browser.cs:line 187
+   at WebSpider.Core.AdiSpider.SaveProductBigImage(AdiProduct p, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1504
+   at WebSpider.Core.AdiSpider.UpdateProductAid(AdiProduct product, Boolean SaveProductImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1444
+   at WebSpider.Core.AdiSpider.GetProductDetails(AdiProduct product, Boolean SaveImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1321
+   at WebSpider.Core.AdiSpider.UpdateProduct(Object objItem) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1953
+02/10/2016 13:08 : {
+  "ABCCode": null,
+  "AdiNumber": "CK-FG1625K5",
+  "AllowedToBuy": null,
+  "DangerousGoodsMessage": null,
+  "InventoryMessage": null,
+  "MarketingMessage": "",
+  "MinQty": null,
+  "ModelNumber": null,
+  "Price": 167.50,
+  "ProductDescription": "(5) FG1625 KIT",
+  "ProductImagePath": null,
+  "RecycleFee": null,
+  "SaleMessageIndicator": null,
+  "SaleType": null,
+  "VendorName": "Honeywell Intrusion",
+  "VendorNumber": null,
+  "ST": null,
+  "SMI": null,
+  "InventoryMessageCode": null,
+  "CatagoryID": null,
+  "SmallImage": "E_132189.png",
+  "BigImage": "132189_1",
+  "Name": "(5) FG1625 KIT",
+  "VendorModel": "0-001-027-01/5",
+  "PartNumber": "CK-FG1625K5",
+  "Url": "/Pages/Product.aspx?pid=CK-FG1625K5",
+  "LastUpdateDatetime": "2016-02-10T13:07:56.7269015+05:30",
+  "LeastCount": 0,
+  "ProductFeatures": [],
+  "ProductID": null,
+  "Specification": [],
+  "ID": 0,
+  "PriorityProduct": false,
+  "IsUpdating": false,
+  "UpdateInterval": 0,
+  "ClearanceZone": false,
+  "HotDeals": false,
+  "OnlineSpecials": false,
+  "SaleCenter": false,
+  "InStock": false
+}
+02/10/2016 13:08 : The given path's format is not supported.
+02/10/2016 13:08 :    at WebSpider.Core.Browser.DownloadFile(String Url, String FileName) in d:\C#\Webspider\WebSpider.Core\Browser.cs:line 187
+   at WebSpider.Core.AdiSpider.SaveProductBigImage(AdiProduct p, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1504
+   at WebSpider.Core.AdiSpider.UpdateProductAid(AdiProduct product, Boolean SaveProductImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1444
+   at WebSpider.Core.AdiSpider.GetProductDetails(AdiProduct product, Boolean SaveImage, AdiMode mode) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1321
+   at WebSpider.Core.AdiSpider.UpdateProduct(Object objItem) in d:\C#\Webspider\WebSpider.Core\AdiSpider.cs:line 1953
